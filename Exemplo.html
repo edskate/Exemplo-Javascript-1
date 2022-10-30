@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 01</title>
+    <style>
+body{
+color: #000000;
+text-shadow: 2px 3px 4px #000;
+font-size: 20px ;
+margin: 10px;
+}
+table{
+border: 3px solid ;
+border-radius: 15px;
+background-color: #00ffff;
+}
+a{
+color: #ff0000;
+
+}
+    </style>
+</head>
+<body>
+    <h3>Álcool ou gasolina ?</h3>
+<table>
+<tr>
+
+   <td> <li>o  primeiro problema que surge é sobre o consumo de combustivel de seu carro, <br> vamos olhar com mais atenção os detlhes? <br> Portanto, confira as informações  abaixo:</li></td>
+</tr>
+<tr>
+    <td><li>Seu carro tem  um <em>tanque</em> de 40 litros e pode utilizar álcool ou gasolina.</li></td>
+</tr>
+<br>
+<tr>
+<td>
+    <li>Com gasolina e usando todo o tanque você percorre um caminho com gasolina  de 480 quilometros.</li></td>
+</tr>
+<br>
+   <tr><td> <li><b>Qual é o  consumo de gasolina ?</b></li></td></tr>
+   <tr> <td><li> Com álcool. um tanque de 40 litros fez um caminho com alcool de 300 quilômetros.</li></td></tr>
+<br>
+    <tr><td><li><a>Qual é o consumo de Álcool ?</a></li></td></tr>
+<br>
+</table>
+    <h3>Álcool ou gasolina ?</h3>
+<details>
+<summary>Resposta Do Programa javascript.</summary>
+<script>
+var tanque = 40;
+
+var caminhoComGasolina = 480;
+var consumoDeGasolina = caminhoComGasolina/tanque;
+
+var caminhoComAlcool = 300;
+var consumoDeAlcool = caminhoComAlcool/tanque;
+
+document.write("O consumo de gasolina é " + consumoDeGasolina + " km/l ");
+document.write("<br>");
+
+
+document.write("O consumo de Alcool é " + consumoDeAlcool + " km/l  ");
+
+</script>
+</details>
+</body>
+</html>
